@@ -1,0 +1,6 @@
+<svg class="ill" width="160" height="100" viewBox="0 0 160 100" aria-hidden="true"><style>*{fill:none;stroke:#2b2118;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.f-green{fill:#2f5d4a}.f-brass{fill:#b8893b}.f-paper{fill:#efe3c8}.f-ink{fill:#2b2118;stroke:none}.dash{stroke-dasharray:4 6;stroke:#b8893b}.thick{stroke-width:5;stroke:#b8893b}</style>
+    <path d="M14 14 H92 V58 H40 L26 72 V58 H14 Z" class="f-paper"/>
+    <path d="M46 28 Q46 22 53 22 Q60 22 60 29 Q60 34 53 36 V40"/><circle cx="53" cy="48" r="2" class="f-ink"/>
+    <path d="M74 44 H146 V84 H134 V96 L120 84 H74 Z" class="f-green"/>
+    <path d="M90 64 H130" style="stroke: var(--paper)"/>
+  </svg>

@@ -1,0 +1,9 @@
+<svg class="ill" width="200" height="110" viewBox="0 0 200 110" aria-hidden="true"><style>*{fill:none;stroke:#2b2118;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.f-green{fill:#2f5d4a}.f-brass{fill:#b8893b}.f-paper{fill:#efe3c8}.f-ink{fill:#2b2118;stroke:none}.dash{stroke-dasharray:4 6;stroke:#b8893b}.thick{stroke-width:5;stroke:#b8893b}</style>
+    <path d="M60 10 H140 V100 H60 Z" class="f-paper"/>
+    <path d="M66 16 H134 V94 H66 Z"/>
+    <path d="M80 34 H120"/><path d="M76 50 H112"/><path d="M114 50 H124" class="dash"/>
+    <path d="M76 64 H106"/><path d="M108 64 H124" class="dash"/>
+    <path d="M76 78 H110"/><path d="M112 78 H124" class="dash"/>
+    <path d="M150 100 V72 Q150 64 156 62 V46 H166 V62 Q172 64 172 72 V100" class="f-green"/>
+    <path d="M22 70 H48 L44 100 H26 Z" class="f-paper"/><path d="M24 82 H46 L44 100 H26 Z" class="f-brass"/>
+  </svg>

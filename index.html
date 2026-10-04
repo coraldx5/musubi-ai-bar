@@ -1,12 +1,15 @@
 <!doctype html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
     <title>AIを、一杯目から。｜バーで触れる2時間のAI体験</title>
     <meta
       name="description"
-      content="お酒を片手に、AIで何ができるのかを体験する2時間のバーイベント。"
+      content="会社ではAIを使えるのに、メールの添削くらいしかしていない方へ。お酒を片手に、AIで何ができるのかを体験する2時間のバーイベント。メニューから好きな体験を選べます。"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,210 +20,500 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <nav>
-      <a href="#top">AIを、一杯目から。</a
-      ><span
-        ><a href="#for-you">こんな方に</a><a href="#takeaways">持ち帰れること</a
-        ><a href="#backbar">バックバー</a><a href="#menu">メニュー</a
-        ><a href="#flow">当日の流れ</a><a href="#faq">FAQ</a></span
-      ><a class="cta" href="#apply">申し込む</a>
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <div class="nav-inner">
+        <a class="nav-brand" href="#top">AIを、一杯目から。</a>
+        <ul class="nav-links">
+          <li><a href="#for-you">こんな方に</a></li>
+          <li><a href="#backbar">バックバー</a></li>
+          <li><a href="#menu">メニュー</a></li>
+          <li><a href="#flow">当日の流れ</a></li>
+          <li><a href="#prep">ご準備</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+        </ul>
+        <a class="nav-cta" href="#apply">申し込む</a>
+      </div>
     </nav>
+
+    <header class="card hero" id="top">
+      <img
+        class="ill"
+        src="assets/images/illustrations/illustration-01.svg"
+        alt=""
+        aria-hidden="true"
+        width="200"
+        height="180"
+      />
+      <p class="venue-note">今夜は、バーで</p>
+      <h1><span>AIを、</span><br /><span>一杯目から。</span></h1>
+      <p class="lead">
+        会社でAIは使えるけれど、メールの添削くらいしかしていない。そんな方のための、2時間のAI体験です。授業はありません。メニューから気になるものを選んで、お酒を片手に「AIってこんなこともできるのか」を味わってください。
+      </p>
+      <dl class="details">
+        <dt>日時</dt>
+        <dd>◯月◯日（◯）19:00〜21:00</dd>
+        <dt>場所</dt>
+        <dd>◯◯◯（店名・最寄駅）</dd>
+        <dt>料金</dt>
+        <dd>◯,◯◯◯円（ワンドリンク付き）</dd>
+        <dt>定員</dt>
+        <dd>◯名</dd>
+      </dl>
+      <a class="btn" href="#apply">参加を申し込む</a>
+    </header>
+
     <main>
-      <header id="top">
-        <div>
-          <p class="eyebrow">今夜は、バーで</p>
-          <h1>AIを、<br /><em>一杯目から。</em></h1>
-          <p>
-            会社でAIは使えるけれど、メールの添削くらいしかしていない。そんな方のための、2時間のAI体験です。お酒を片手に「AIってこんなこともできるのか」を味わってください。
-          </p>
-          <dl>
-            <dt>日時</dt>
-            <dd>◯月◯日（◯）19:00〜21:00</dd>
-            <dt>場所</dt>
-            <dd>◯◯◯（店名・最寄駅）</dd>
-            <dt>料金</dt>
-            <dd>◯,◯◯円（ワンドリンク付き）</dd>
-          </dl>
-          <a class="button" href="#apply">参加を申し込む →</a>
-        </div>
+      <section class="card" aria-labelledby="for-you">
         <img
-          src="assets/images/hero-cocktail.png"
-          alt="AIのひらめきを表すカクテルのイラスト"
+          class="ill"
+          src="assets/images/illustrations/illustration-02.svg"
+          alt=""
+          aria-hidden="true"
+          width="240"
+          height="130"
         />
-      </header>
-      <section id="for-you">
-        <img
-          src="assets/images/for-you-devices.png"
-          alt="ノートパソコンとスマートフォンのイラスト"
-        />
-        <p class="eyebrow">FOR YOU</p>
-        <h2>こんな方に</h2>
-        <p class="section-lead">
-          AIに興味はある。でも、何から試せばよいか分からない。そんな“最初の一杯”を探している方のための会です。
-        </p>
-        <div class="for-you-grid">
-          <article>
-            <h3>会社のAIを、もっと使いこなしたい方</h3>
-            <p>
-              ChatGPTやClaude、Copilotに触れたことはあるけれど、メールの添削や要約で止まっている方。仕事での便利な使い方を、自分の言葉で試せます。
-            </p>
-          </article>
-          <article>
-            <h3>暮らしにAIを取り入れてみたい方</h3>
-            <p>
-              旅行の計画、献立づくり、長い書類の要約、写真についての質問など、仕事以外で役立つ場面を知りたい方に。
-            </p>
-          </article>
-          <article>
-            <h3>どのAIを選べばよいか迷っている方</h3>
-            <p>
-              有料版と無料版の違い、アプリを入れる価値、手元だけで動くAIの使い心地を、契約前に飲み比べできます。
-            </p>
-          </article>
-          <article>
-            <h3>安全な使い方を知ってから始めたい方</h3>
-            <p>
-              個人情報や仕事の情報をどこまで入力してよいのか不安な方へ。気をつけるポイントも、体験と一緒にお伝えします。
-            </p>
-          </article>
-        </div>
-        <p class="for-you-note">
-          AI未経験の方、お一人での参加、お酒を飲まれない方も歓迎です。ノートパソコンはなくても参加できます。
-        </p>
-      </section>
-      <section id="takeaways">
-        <p class="eyebrow">YOU WILL LEAVE WITH</p>
-        <h2>今夜、持ち帰れること</h2>
-        <p class="section-lead">
-          ただ「触ってみた」で終わらせず、明日からの最初の一歩をお持ち帰りいただきます。
-        </p>
-        <div class="takeaway-grid">
-          <article>
-            <b>01</b>
-            <h3>自分に合うAIがわかる</h3>
-            <p>
-              有料版と無料版を試して、あなたの使い方に合う一杯を見つけます。
-            </p>
-          </article>
-          <article>
-            <b>02</b>
-            <h3>明日からの使い方をひとつ</h3>
-            <p>仕事や暮らしに持ち帰れる、具体的な使い方を体験します。</p>
-          </article>
-          <article>
-            <b>03</b>
-            <h3>安心して使う線引き</h3>
-            <p>AIに渡してよい情報と、避けるべき情報の境目がわかります。</p>
-          </article>
-        </div>
-      </section>
-      <section id="backbar">
-        <img
-          src="assets/images/backbar-shelf.png"
-          alt="AIが並ぶバックバーのイラスト"
-        />
-        <p class="eyebrow">BACK BAR</p>
-        <h2>バックバーのご案内</h2>
+        <h2 id="for-you">こんな方に</h2>
+        <span class="ornament" aria-hidden="true">◆ ◆ ◆</span>
         <p>
-          このバーの棚には、お酒と一緒にAIも並んでいます。契約前の有料版と、手元のパソコンで動かせる無料モデルを、その場で試せます。
+          会社ではChatGPTやClaude、Copilotが使えるようになった。触ったこともある。でも実際にやっているのは、メールの添削くらい。
         </p>
-        <div class="grid">
-          <article>
-            <h3>有料版のAIエージェント</h3>
-            <p>ChatGPT ／ Claude ／ Copilot</p>
-          </article>
-          <article>
-            <h3>無料で使えるAI</h3>
-            <p>Qwen 3.8 ／ Gemma</p>
-          </article>
-        </div>
-        <aside>
-          RTX PRO
-          6000（96GB）で稼働。無料でもどこまでできるのか、有料版と何が変わるのかを同じ質問で飲み比べられます。
-        </aside>
+        <p>
+          本当はプライベートでも使ってみたいけれど、自分のパソコンに入れて何ができるのかがわからない。そもそも、ClaudeやChatGPTをパソコンにどうやって入れればいいのかもわからない。
+        </p>
+        <p>
+          この会は、そんな方が「まずは何ができるのかを知る」ための2時間です。仕事以外の暮らしやお金のことまで、AIでできることを一通り試してみましょう。もっと踏み込みたい方には、AIに作業を任せる「裏メニュー」も用意しています。
+        </p>
       </section>
-      <section id="menu">
+
+      <section class="card" aria-labelledby="backbar">
         <img
-          src="assets/images/menu-card.png"
-          alt="カクテルとメニューカードのイラスト"
+          class="ill"
+          src="assets/images/illustrations/illustration-03.svg"
+          alt=""
+          aria-hidden="true"
+          width="220"
+          height="110"
         />
-        <p class="eyebrow">TONIGHT'S MENU</p>
-        <h2>本日のメニュー</h2>
-        <p class="section-lead">
-          気分と目的に合わせて、お好きな体験を選べます。
+        <h2 id="backbar">バックバーのご案内</h2>
+        <span class="ornament" aria-hidden="true">◆ ◆ ◆</span>
+        <p>
+          この会では、マスターが契約している有料版のAIエージェントと、無料で手元のパソコンで動かせるAIを、その場で試していただけます。
         </p>
-        <div class="grid menu">
-          <article>
-            <h3>お通し</h3>
-            <p>AIバーテンダー　15分</p>
-            <div class="tags"><span>全員共通</span><span>PC不要</span></div>
-          </article>
-          <article>
-            <h3>ライトメニュー</h3>
-            <p>写真で質問／声でおしゃべり／画像づくり／AIのウソを見破れ</p>
-            <div class="tags"><span>初心者向け</span><span>PC不要</span></div>
-          </article>
-          <article>
-            <h3>実用メニュー</h3>
+        <div class="shelf">
+          <h3>有料版のAIエージェント</h3>
+          <p class="sub">契約する前に、何ができるのかを確かめられます</p>
+          <ul class="bottles paid">
+            <li>ChatGPT<small>有料版</small></li>
+            <li>Claude<small>有料版</small></li>
+            <li>Copilot<small>有料版</small></li>
+          </ul>
+        </div>
+        <div class="shelf">
+          <h3>無料で使えるAI</h3>
+          <p class="sub">
+            インターネットにつながず、手元のパソコンだけで動くAIです
+          </p>
+          <ul class="bottles local">
+            <li>Qwen 3.8<small>無料モデル</small></li>
+            <li>Gemma<small>無料モデル</small></li>
+          </ul>
+          <div class="rig">
+            <img
+              class="ill gpu"
+              src="assets/images/illustrations/illustration-04.svg"
+              alt=""
+              aria-hidden="true"
+              width="112"
+              height="44"
+            />
+            <strong>無料AIを動かすのは、業務用のGPU「RTX PRO 6000」</strong>
+            AIを動かすための専用メモリを96GB積んだ、研究や企業向けのグラフィックボードです。一般的な家庭用パソコンでは動かせない大きなモデルも動かせるので、無料のAIの本気の実力を確かめていただけます。
+          </div>
+        </div>
+        <p style="margin: 0">
+          「無料でもどこまでできるのか」「お金を払うと何が変わるのか」を、同じ質問で飲み比べられるのが、このバーならではの楽しみ方です。
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="menu">
+        <img
+          class="ill"
+          src="assets/images/illustrations/illustration-05.svg"
+          alt=""
+          aria-hidden="true"
+          width="200"
+          height="110"
+        />
+        <h2 id="menu">本日のメニュー</h2>
+        <span class="ornament" aria-hidden="true">◆ ◆ ◆</span>
+
+        <div class="menu-section">
+          <img
+            class="ill icon"
+            src="assets/images/illustrations/illustration-06.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <h3>お通し</h3>
+          <p class="sub">はじめに、皆さん共通で</p>
+          <div class="item">
+            <div class="item-head">
+              <span>AIバーテンダー</span><span class="leader"></span
+              ><span class="time">15分</span>
+            </div>
             <p>
-              わが家のパソコンにAIを／資産のふりかえり／受信箱のおさらい／旅行と献立のプランナー
+              今日の気分と好みをAIに伝えて、一杯を提案してもらいます。提案されたカクテルは、マスターが実際にお作りします。
             </p>
-            <div class="tags">
-              <span>持ち帰り効果大</span><span>PC推奨</span>
+          </div>
+        </div>
+
+        <div class="menu-section">
+          <img
+            class="ill icon"
+            src="assets/images/illustrations/illustration-07.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="22"
+          />
+          <h3>ライトメニュー</h3>
+          <p class="sub">触って楽しい</p>
+          <div class="item">
+            <div class="item-head">
+              <span>写真で質問</span><span class="leader"></span
+              ><span class="time">10分</span>
             </div>
-          </article>
-          <article class="secret">
+            <p>料理やボトルのラベルを撮影して「これは何？」と聞いてみます。</p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>声でおしゃべり</span><span class="leader"></span
+              ><span class="time">10分</span>
+            </div>
+            <p>文字を打たずに、声だけでAIと雑談や英会話をします。</p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>画像づくり</span><span class="leader"></span
+              ><span class="time">15分</span>
+            </div>
+            <p>
+              SNSのアイコンや年賀状のイラストを、言葉で注文して描いてもらいます。
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>AIのウソを見破れ</span><span class="leader"></span
+              ><span class="time">15分</span>
+            </div>
+            <p>
+              AIはもっともらしく間違えることがあります。クイズ形式で、その見抜き方を覚えます。
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-section">
+          <img
+            class="ill icon"
+            src="assets/images/illustrations/illustration-08.svg"
+            alt=""
+            aria-hidden="true"
+            width="26"
+            height="19"
+          />
+          <h3>実用メニュー</h3>
+          <p class="sub">明日から使える</p>
+          <div class="item">
+            <div class="item-head">
+              <span
+                >わが家のパソコンにAIを<span class="recommend"
+                  >まずはここから</span
+                ></span
+              ><span class="leader"></span><span class="time">15分</span>
+            </div>
+            <p>
+              ClaudeやChatGPTのアプリを、ご自分のパソコンに入れるところから一緒にやります。会社の環境との違いもあわせてご説明します。
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>資産のふりかえり</span><span class="leader"></span
+              ><span class="time">20分</span>
+            </div>
+            <p>
+              マネーフォワードなどの家計簿アプリの資産画面をスクリーンショットしてAIに読ませ、資産の偏りや、これから考えておきたいことを整理してもらいます。
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>受信箱のおさらい</span><span class="leader"></span
+              ><span class="time">15分</span>
+            </div>
+            <p>
+              GmailとChatGPTをつないで、最近届いたメールを要約してもらいます。どれから返事をすればいいか、ひと目でわかります。
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>長い文章を3行に</span><span class="leader"></span
+              ><span class="time">10分</span>
+            </div>
+            <p>契約書や取扱説明書、ニュース記事を短くまとめてもらいます。</p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>旅行と献立のプランナー</span><span class="leader"></span
+              ><span class="time">15分</span>
+            </div>
+            <p>
+              予算や好みを伝えて、旅行の日程や1週間の献立を組んでもらいます。
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-section">
+          <img
+            class="ill icon"
+            src="assets/images/illustrations/illustration-09.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <h3>マスターのおすすめ</h3>
+          <p class="sub">少しだけ、AIの中身を</p>
+          <div class="item">
+            <div class="item-head">
+              <span
+                >AIのしくみ、3分で<span class="recommend">おすすめ</span></span
+              ><span class="leader"></span><span class="time">10分</span>
+            </div>
+            <p>
+              Googleの無料の実行環境（Colaboratory）で、小さな生成AI（GPT-2）を実際に動かします。文章が一単語ずつ選ばれて生まれていく様子を、目の前でのぞいてみましょう。
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>有料と無料の飲み比べ</span><span class="leader"></span
+              ><span class="time">15分</span>
+            </div>
+            <p>
+              同じ質問を、有料版のChatGPT・Claude・Copilotと、無料のQwen・Gemmaに投げて答えを比べます。無料のモデルは業務用GPUで大きなサイズのまま動かすので、有料版にどこまで迫れるかが見どころです。インターネットにつながずに動くため、情報を外に出さずに使える点もご覧いただけます。
+            </p>
+          </div>
+          <div class="item">
+            <div class="item-head">
+              <span>入れてはいけない情報</span><span class="leader"></span
+              ><span class="time">10分</span>
+            </div>
+            <p>
+              個人情報や社外秘をどう扱うか。安心して使うための線引きを確認します。
+            </p>
+          </div>
+        </div>
+
+        <div class="secret">
+          <div class="menu-section">
+            <img
+              class="ill icon"
+              src="assets/images/illustrations/illustration-10.svg"
+              alt=""
+              aria-hidden="true"
+            />
             <h3>裏メニュー</h3>
-            <p>マイ手順書（Skill）／毎朝の秘書／10分でアプリ</p>
-            <div class="tags">
-              <span>PC必須</span><span>じっくり派向け</span>
+            <p class="sub">
+              AIに仕事を任せてみたい方へ。ノートパソコンをお持ちください
+            </p>
+            <div class="item">
+              <div class="item-head">
+                <span>マイ手順書（Skill）</span><span class="leader"></span
+                ><span class="time">20分</span>
+              </div>
+              <p>
+                いつもの仕事の進め方をAIに覚えさせます。議事録のまとめ方などを、その場で一緒に作ります。
+              </p>
             </div>
-          </article>
+            <div class="item">
+              <div class="item-head">
+                <span>毎朝の秘書（スケジュール）</span
+                ><span class="leader"></span><span class="time">15分</span>
+              </div>
+              <p>
+                「平日の朝7時に、ニュースと今日の予定をまとめて」と登録します。翌朝、最初の報告が届きます。
+              </p>
+            </div>
+            <div class="item">
+              <div class="item-head">
+                <span>ブラウザを代わりに操作</span><span class="leader"></span
+                ><span class="time">15分</span>
+              </div>
+              <p>
+                「この条件で二次会のお店を探して一覧に」と頼むと、AIが自分でページを開いて調べていきます。
+              </p>
+            </div>
+            <div class="item">
+              <div class="item-head">
+                <span>道具をつなぐ（コネクタ）</span><span class="leader"></span
+                ><span class="time">15分</span>
+              </div>
+              <p>
+                カレンダーやメールとAIをつないで、「来週の空いている夜は？」と聞いてみます。
+              </p>
+            </div>
+            <div class="item">
+              <div class="item-head">
+                <span>10分でアプリ</span><span class="leader"></span
+                ><span class="time">20分</span>
+              </div>
+              <p>
+                このお店のドリンク診断アプリを、AIと会話しながらその場で作って公開します。
+              </p>
+            </div>
+            <div class="cocktail">
+              <div class="item">
+                <div class="item-head">
+                  <span>裏カクテル：全部入り</span><span class="leader"></span
+                  ><span class="time">15分</span>
+                </div>
+                <p>
+                  手順書・スケジュール・コネクタを組み合わせて、毎朝Slackを確認し、返信の下書きまで用意しておく仕組みの種明かし。裏メニューを2品召し上がった方の締めにどうぞ。
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section id="flow">
-        <img src="assets/images/flow-hourglass.png" alt="砂時計のイラスト" />
-        <p class="eyebrow">HOW THE NIGHT FLOWS</p>
-        <h2>当日の流れ</h2>
-        <ol>
+
+      <section class="card" aria-labelledby="flow">
+        <img
+          class="ill"
+          src="assets/images/illustrations/illustration-11.svg"
+          alt=""
+          aria-hidden="true"
+          width="120"
+          height="100"
+        />
+        <h2 id="flow">当日の流れ</h2>
+        <span class="ornament" aria-hidden="true">◆ ◆ ◆</span>
+        <ol class="flow">
           <li>
-            <b>01</b><strong>乾杯とお通し</strong>
-            <p>全員でAIバーテンダーを体験し、最初の一杯を決めます。</p>
+            <span class="num" aria-hidden="true">1</span>
+            <div>
+              <strong>乾杯とお通し</strong><span class="dur">はじめの15分</span>
+              <p>全員で「AIバーテンダー」を体験して、最初の一杯を決めます。</p>
+            </div>
           </li>
           <li>
-            <b>02</b><strong>おかわりタイム</strong>
-            <p>メニューから2〜3品を選び、自分のペースで試します。</p>
+            <span class="num" aria-hidden="true">2</span>
+            <div>
+              <strong>おかわりタイム</strong><span class="dur">つづく80分</span>
+              <p>
+                メニューから2〜3品を選んで、自分のペースで試します。スタッフがテーブルを回ってお手伝いします。
+              </p>
+            </div>
           </li>
           <li>
-            <b>03</b><strong>〆</strong>
-            <p>明日から使えるひとことを持ち帰ります。</p>
+            <span class="num" aria-hidden="true">3</span>
+            <div>
+              <strong>〆</strong><span class="dur">最後の15分</span>
+              <p>
+                感想を少しだけ共有して、「明日から使えるひとこと」カードをお持ち帰りいただきます。
+              </p>
+            </div>
           </li>
         </ol>
       </section>
-      <section id="faq">
-        <p class="eyebrow">FAQ</p>
-        <h2>よくあるご質問</h2>
+
+      <section class="card" aria-labelledby="prep">
+        <img
+          class="ill"
+          src="assets/images/illustrations/illustration-12.svg"
+          alt=""
+          aria-hidden="true"
+          width="200"
+          height="100"
+        />
+        <h2 id="prep">ご準備いただくもの</h2>
+        <span class="ornament" aria-hidden="true">◆ ◆ ◆</span>
+        <ul class="prep">
+          <li>充電済みのスマートフォン</li>
+          <li>
+            ご自分のノートパソコン（アプリのインストールや裏メニューをご希望の方）
+          </li>
+          <li>
+            AIのアカウント（お申し込み後に登録手順をお送りします。当日でも登録をお手伝いします）
+          </li>
+        </ul>
+        <div class="notice">
+          <p>
+            資産のふりかえりでは、口座番号やお名前が写らないよう画面を切り取ってお使いください。見本の画面もご用意しています。AIの回答は特定の金融商品をすすめる投資助言ではありません。最終的なご判断はご自身でお願いします。
+          </p>
+          <p style="margin: 0">
+            お酒の席なので、お仕事用のメールやチャットはつながずに、こちらで用意した体験用アカウントでお試しいただきます。ご自分の環境での設定方法は、持ち帰り資料でご案内します。
+          </p>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="faq">
+        <img
+          class="ill"
+          src="assets/images/illustrations/illustration-13.svg"
+          alt=""
+          aria-hidden="true"
+          width="160"
+          height="100"
+        />
+        <h2 id="faq">よくあるご質問</h2>
+        <span class="ornament" aria-hidden="true">◆ ◆ ◆</span>
         <details>
           <summary>会社でしか使ったことがなくても大丈夫ですか</summary>
-          <p>大丈夫です。まったく触ったことがない方も歓迎です。</p>
+          <p>
+            大丈夫です。むしろ、そういう方のための会です。仕事でのちょっとした使い方から一歩進んで、暮らしの中で何ができるかを体験していただきます。まったく触ったことがない方も歓迎です。
+          </p>
         </details>
         <details>
           <summary>パソコンへのインストールが不安です</summary>
-          <p>アプリの入手から最初の起動まで一緒に進めます。</p>
+          <p>
+            「わが家のパソコンにAIを」のメニューで、アプリの入手から最初の起動まで一緒に進めます。ご自分のパソコンをお持ちいただければ、その場で使える状態にしてお帰りいただけます。
+          </p>
         </details>
         <details>
           <summary>お酒が飲めなくても参加できますか</summary>
-          <p>はい。ノンアルコールのドリンクもご用意しています。</p>
+          <p>
+            はい。ノンアルコールのドリンクもご用意しています。「AIバーテンダー」もノンアルコールで注文できます。
+          </p>
+        </details>
+        <details>
+          <summary>一人で参加しても浮きませんか</summary>
+          <p>
+            お一人での参加が多い会です。テーブルごとにスタッフがつくので、自然に会話が生まれます。
+          </p>
+        </details>
+        <details>
+          <summary>有料版のAIを契約しておく必要はありますか</summary>
+          <p>
+            必要ありません。有料版のChatGPT・Claude・Copilotはマスターの環境でお試しいただけます。実際に触ってみてから、契約するかどうかを決めていただくのがおすすめです。
+          </p>
         </details>
       </section>
-      <section id="apply">
-        <p class="eyebrow">RESERVATION</p>
-        <h2>席に限りがあります。<br />まずは一杯だけのつもりで。</h2>
-        <p>◯月◯日（◯）19:00〜21:00 ／ ◯◯◯</p>
-        <a class="button" href="#">参加を申し込む →</a
-        ><small>◯月◯日（◯）締切／定員になり次第終了</small>
+
+      <section class="card apply" id="apply" aria-labelledby="apply-title">
+        <img
+          class="ill"
+          src="assets/images/illustrations/illustration-14.svg"
+          alt=""
+          aria-hidden="true"
+          width="180"
+          height="120"
+        />
+        <h2 id="apply-title">ご予約</h2>
+        <span class="ornament" aria-hidden="true">◆ ◆ ◆</span>
+        <p>
+          席に限りがあります。気になったら、まずは一杯だけのつもりでどうぞ。
+        </p>
+        <a class="btn" href="#">参加を申し込む</a>
+        <p class="small">◯月◯日（◯）締切／定員になり次第終了</p>
       </section>
     </main>
+
     <footer>
       お酒は二十歳になってから。飲酒運転は法律で禁止されています。
     </footer>

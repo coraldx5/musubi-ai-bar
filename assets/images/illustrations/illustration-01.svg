@@ -1,0 +1,10 @@
+<svg class="ill" width="200" height="180" viewBox="0 0 200 180" aria-hidden="true"><style>*{fill:none;stroke:#2b2118;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.f-green{fill:#2f5d4a}.f-brass{fill:#b8893b}.f-paper{fill:#efe3c8}.f-ink{fill:#2b2118;stroke:none}.dash{stroke-dasharray:4 6;stroke:#b8893b}.thick{stroke-width:5;stroke:#b8893b}</style>
+    <rect x="128" y="8" width="60" height="34" rx="10" class="f-paper"/>
+    <path d="M140 42 L134 52 L150 42"/>
+    <circle cx="146" cy="25" r="3" class="f-ink"/><circle cx="158" cy="25" r="3" class="f-ink"/><circle cx="170" cy="25" r="3" class="f-ink"/>
+    <circle cx="124" cy="60" r="3.5"/><circle cx="115" cy="70" r="2.5"/>
+    <path d="M45 72 H155 L100 128 Z"/>
+    <path d="M60 84 H140 L100 124 Z" class="f-green"/>
+    <path d="M100 128 V164"/><path d="M72 166 H128"/>
+    <path d="M128 48 L96 108"/><circle cx="114" cy="76" r="7" class="f-brass"/>
+  </svg>
