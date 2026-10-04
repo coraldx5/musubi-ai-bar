@@ -1,4 +1,4 @@
-<svg class="ill gpu" viewBox="0 0 120 64" aria-hidden="true"><style>*{fill:none;stroke:#2b2118;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.f-green{fill:#2f5d4a}.f-brass{fill:#b8893b}.f-paper{fill:#efe3c8}.f-ink{fill:#2b2118;stroke:none}.dash{stroke-dasharray:4 6;stroke:#b8893b}.thick{stroke-width:5;stroke:#b8893b}</style>
+<svg xmlns="http://www.w3.org/2000/svg" class="ill gpu" viewBox="0 0 120 64" aria-hidden="true"><style>*{fill:none;stroke:#2b2118;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.f-green{fill:#2f5d4a}.f-brass{fill:#b8893b}.f-paper{fill:#efe3c8}.f-ink{fill:#2b2118;stroke:none}.dash{stroke-dasharray:4 6;stroke:#b8893b}.thick{stroke-width:5;stroke:#b8893b}</style>
         <rect x="4" y="6" width="112" height="44" rx="5" class="f-green"/>
         <circle cx="36" cy="28" r="15" class="f-paper"/><circle cx="36" cy="28" r="4" class="f-brass"/>
         <circle cx="84" cy="28" r="15" class="f-paper"/><circle cx="84" cy="28" r="4" class="f-brass"/>

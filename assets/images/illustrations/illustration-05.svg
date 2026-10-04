@@ -1,4 +1,4 @@
-<svg class="ill" width="200" height="110" viewBox="0 0 200 110" aria-hidden="true"><style>*{fill:none;stroke:#2b2118;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.f-green{fill:#2f5d4a}.f-brass{fill:#b8893b}.f-paper{fill:#efe3c8}.f-ink{fill:#2b2118;stroke:none}.dash{stroke-dasharray:4 6;stroke:#b8893b}.thick{stroke-width:5;stroke:#b8893b}</style>
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" width="200" height="110" viewBox="0 0 200 110" aria-hidden="true"><style>*{fill:none;stroke:#2b2118;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.f-green{fill:#2f5d4a}.f-brass{fill:#b8893b}.f-paper{fill:#efe3c8}.f-ink{fill:#2b2118;stroke:none}.dash{stroke-dasharray:4 6;stroke:#b8893b}.thick{stroke-width:5;stroke:#b8893b}</style>
     <path d="M60 10 H140 V100 H60 Z" class="f-paper"/>
     <path d="M66 16 H134 V94 H66 Z"/>
     <path d="M80 34 H120"/><path d="M76 50 H112"/><path d="M114 50 H124" class="dash"/>
